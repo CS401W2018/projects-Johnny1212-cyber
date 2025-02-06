@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: #8B0000; 
+    background-color: #F5F5DC;
+}
+
+header h1 {
+    background-color: #D0D9B5; 
+    color: #1B1B1B;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+nav {
+    background-color: #F5F5DC; 
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+#first {
+    color: #3E3D20;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+.second {
+    color: #0006ad;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+h1, h2 {
+    color: #B8860B;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+h3 {
+    color: #FF8C00;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+p {
+    
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: #ff0019;
+}
+
+footer {
+    background-color: #1C2833;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
