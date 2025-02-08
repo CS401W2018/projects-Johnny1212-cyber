@@ -1,0 +1,29 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 198, 130);
+}
+p{
+    font-size: smaller;
+}
+footer {
+    color: #000000;
+}
+#secondpar {
+    color: aquamarine;
+}
+.blue {
+    color: blue;
+}
+.bigger {
+    font-size: larger;
+}
+.bolder {
+    font-weight: bolder;
+}
+.Green {
+    color: green;
+    background-color: azure;
+}
+.hunting {
+    width: 300px;
+}
