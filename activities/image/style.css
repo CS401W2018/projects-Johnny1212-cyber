@@ -1,0 +1,27 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('pexels.jpg');
+    background-repeat:repeat-x
+
+}
+p{font-size: larger;
+  color: rgb(252, 252, 252);
+}
+h2 {
+    color: aliceblue;
+}
+.mylist {
+    /*list-style-type: none;*/
+    list-style-image: url(5_star_dragonball_by_razor_alphabid_de5jqmu.png);
+    color: beige;
+}
+header {
+   background-image: url('');
+   ;
+    color: rgb(9, 9, 9);
+    /*background-image: url(tekstury-siniy-textures-1734-2.jpg);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background: url() top right no-repeat;*/
+}
+    
