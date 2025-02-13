@@ -1,0 +1,46 @@
+nav {
+   /* background-color: rgb(205, 232, 229);*/
+    text-decoration: none;
+    padding: 10px;
+    font-family: cursive;
+    }
+.highlight {
+    background-color: rgb(213, 114, 114);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-image:url(Maing\ background.jpg) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.list {
+    color: azure;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-image: url(logo.png);
+}
+p {
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    background-image: url(Premium\ Vector\ |\ Myanmar\ Traditional\ Kanote\ Design\ Illustration.jpg);
+    background-repeat: repeat-x;
+    color: rgb(160, 15, 15);
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+}

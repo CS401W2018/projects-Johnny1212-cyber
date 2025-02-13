@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inn Lay</title>
+    <link rel="stylesheet" href="Tourstyle.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Inn Lay</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="place1" >Yangon</a>
+        <a href="place2">Mandalay</a>
+        <a href="place3">Bagan</a>
+        <a href="place4"class="highlight">Inn Lay</a>
+        <a href="place5">Taung Gyi</a>
+    </nav>
+    
+    <main>
+        <h2>Picturesque Inle Lake</h2>
+        
+        <h2>Inle Lake</h2>
+        <img src="InleLake1.jpg" alt="Inle Lake">
+        <p>&nbsp&nbspInle Lake is a beautiful freshwater lake located in the Shan Hills. Known for its calm waters, floating gardens, and stilted houses, it is a serene place to explore by boat. The lake is famous for its unique fishermen who row their boats with one leg, making it a special and unforgettable experience.</p>
+        
+        <h2>Shwe Indein Pagoda</h2>
+        <img src="InleLake2.jpg" alt="Shwe Indein Pagoda">
+        <p>&nbsp&nbspThe Shwe Indein Pagoda is a fascinating group of ancient stupas located on the western shore of Inle Lake. The pagoda complex is surrounded by lush greenery and offers a peaceful atmosphere. The rows of weathered stupas, some centuries old, make it a significant historical and cultural site.</p>
+        
+        <h2>Ngaphe Chaung Monastery</h2>
+        <img src="InleLake3.jpg" alt="Ngaphe Chaung Monastery">
+        <p>&nbsp&nbspNgaphe Chaung Monastery, also known as the "Jumping Cat Monastery," is located on the eastern shore of Inle Lake. The monastery is famous for its collection of ancient Buddha images and the trained cats that once performed tricks. It’s a peaceful place to visit with an incredible view of the lake.</p>
+        
+        <h2>Inle Lake Floating Gardens</h2>
+        <img src="InleLake4.jpg" alt="Inle Lake Floating Gardens">
+        <p>&nbsp&nbspThe floating gardens of Inle Lake are a unique and remarkable sight. These gardens are created by locals who use bamboo and water hyacinths to grow vegetables on the water. The floating gardens contribute to the local economy, providing fresh produce for the surrounding villages and markets.</p>
+        
+        <h2>Local Markets</h2>
+        <img src="InleLake5copy.jpg" alt="Inle Lake Market">
+        <p>&nbsp&nbspInle Lake’s local markets are lively, vibrant places where visitors can experience traditional Burmese culture. Markets like the one in Nyaungshwe feature a variety of local crafts, clothes, fresh produce, and souvenirs. The markets are also an excellent place to interact with the local Intha people and learn about their way of life.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kaung Si Thu</p>
+    </footer>
+    </body>
+    </html>

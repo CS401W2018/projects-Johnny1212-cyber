@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangon</title>
+    <link rel="stylesheet" href="Tourstyle.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Yangon</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="place1" class="highlight">Yangon</a>
+        <a href="place2">Mandalay</a>
+        <a href="place3">Bagan</a>
+        <a href="place4">Inn Lay</a>
+        <a href="place5">Taung Gyi</a>
+    </nav>
+    
+    
+  
+    <br>
+    <br>
+    <br>
+    <main>
+        <h2>Biggest City Yangon</h2>
+        
+        <h2>Shwedagon</h2>
+        <img src="Yangon1.jpg" alt="Shwedagon">
+        <p>&nbsp&nbspThe Shwedagon Pagoda is the most iconic landmark in Myanmar, known for its golden    stupa that reaches 99 meters (325 feet). It’s a sacred site for Buddhists, believed to contain relics of past Buddhas. The pagoda is surrounded by smaller shrines, and visitors can admire its stunning architecture, especially at sunset when the golden surface shines.</p>
+        <h2>Sule Pagoda</h2>
+        <img src="yangon2.jpg" alt="Sule Pagoda ">
+        <p>
+            &nbsp&nbspLocated in downtown Yangon, the Sule Pagoda is an ancient Buddhist monument that has stood for over 2,000 years. It is a unique octagonal-shaped pagoda and plays an important role in the city’s history. It’s located at a major intersection, making it a central point of both religious and cultural significance in Yangon.
+        </p>
+        <h2>Kandawgyi Lake</h2>
+        <img src="yangon3.jpg" alt="Kandawgyi Lake">
+        <p>
+            &nbsp&nbspKandawgyi Lake is a beautiful man-made lake located in the heart of Yangon. It is famous for its scenic views, especially with the Kandawgyi Palace Hotel reflecting on the water. The lake area is a popular spot for locals to relax, take boat rides, and enjoy walking trails, offering a peaceful escape from the busy city.
+        </p>
+        <h2>Chauk Htet Gyi</h2>
+        <img src="yangon4.jpg" alt="Chauk Htet Gyi">
+        <p>
+            &nbsp&nbspThe Chauk Htat Kyi Pagoda is home to one of the largest reclining Buddhas in Myanmar, measuring over 66 meters (217 feet) long. This impressive statue is adorned with gold and is a significant pilgrimage site for Buddhists. The pagoda also features beautiful surrounding gardens.
+        </p>
+        <h2>Bogyoke Markets</h2>
+        <img src="yangon5.jpg" alt="Bogyoke Markets">
+        <p>&nbsp&nbsp Bogyoke Aung San Market, also known as Scott Market, is a vibrant shopping destination where visitors can find traditional Burmese handicrafts, jewelry, clothing, and antiques. The market is housed in a colonial-style building, and it’s a great place to experience the local culture, shop for souvenirs, and enjoy street food.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kaung Si Thu</p>
+    </footer>
+</body>
+</html>
