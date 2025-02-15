@@ -9,7 +9,7 @@ body{
     margin: 10px auto;
 }
 .fignative img{
-    width: 100;
+    width: 300px;
 }
 header {
     background-color: beige;
@@ -22,7 +22,7 @@ header {
 }
 header h1 {
     border: 10px dashed #8f2323;
-   padding:1cm
+   padding:1cm;
    margin-top: 0;
 }
 h2 {
