@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.fignative{
+    width: 300px;
+    border: thin solid #000;
+    text-align: center;
+    margin: 10px auto;
+}
+.fignative img{
+    width: 100;
+}
+header {
+    background-color: beige;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 0;
+    padding: 0 25px 100px 0;
+   /* height: 50px;
+    overflow: scroll;*/
+}
+header h1 {
+    border: 10px dashed #8f2323;
+   padding:1cm
+   margin-top: 0;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
