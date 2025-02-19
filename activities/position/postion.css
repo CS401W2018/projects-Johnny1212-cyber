@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 350px;
+}
+nav a{
+    display: block;
+    background-color: rgb(67, 208, 19);
+    padding: 18px 5px;
+    border-bottom: thin solid #fff;
+}
+.clear{
+    clear:both
+}
+.moving {
+    position: fixed;
+    top: 0px;
+    
+}
+.floating{
+    float: left;
+}
+.Hunter {
+    width: 250px;
+    border: thin solid #000;
+    box-shadow: 10px 10px 20px rgb(0,0,0,1);
+}
+.Hunter img{
+    width: 100%;
+}
