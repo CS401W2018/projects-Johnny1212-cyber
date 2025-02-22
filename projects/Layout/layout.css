@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3b2f2f; 
+    color: #f4e1a1; 
+}
+
+#wrapper {
+    width: 900px;
+    background-color: #5a4632; 
+    margin: 20px auto;
+    border: thin solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.bound {
+    width: 800px;
+    background-color: #5a4632; 
+    margin: 10px auto;
+    border: thin solid #000;
+    border-radius: 10px;
+    padding:15px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url('images.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+header h1 {
+    color: #ffcc00; 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black; 
+}
+    
+
+main h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+nav {
+    height: 50px; 
+}
+nav a {
+    display: block;
+    padding: 8px 12px;
+    background-color: #8b5a2b; 
+    color: #fff4d1; 
+    text-decoration: none;
+    float: left;
+    margin-left: 150px;
+    margin-top: -10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px black;
+}
+
+nav a:hover {
+    color: #3b2f2f;
+    background-color: #d2691e; 
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.Picture {
+    float: left;
+    margin-right: 15px;
+    border: 6px solid #ffcc00;
+    padding: 5px;
+    background-color: #3b2f2f;
+    
+}
+
+figcaption {
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    color: #ffcc00;
+    font-size: 18px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff4d1; 
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.8;
+    text-align: justify ;
+    padding: 10px;
+}
+
+footer {
+    background-color: #8b5a2b;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #252421;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('images.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    background-origin: border-box;
+    text-align: center;
+    border: 2px solid #ffaa00;
+}
