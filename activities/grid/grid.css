@@ -9,6 +9,33 @@ body{
     gap: 10px;
 
 }
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "navication navication navication"
+    "left center right"
+    "footer footer footer";
+}
 .child {
     background-color: rgb(149,124,172);
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: navication;
+}
+#lside{
+    grid-area:left;
+}
+#rside{
+    grid-area: center;
+}
+main{
+    grid-area: right;
+}
+footer{
+    grid-area: footer ;
 }

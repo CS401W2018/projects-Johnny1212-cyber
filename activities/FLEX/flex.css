@@ -1,0 +1,15 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parent{
+    background-color: rgb(237,237,110);
+    display: flex;
+    /*gap: 10px;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child {
+    background-color: rgb(206, 170, 241);
+   /* margin-right: 20px;*/
+   width: 100px;
+}
