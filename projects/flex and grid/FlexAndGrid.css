@@ -65,7 +65,7 @@ main {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border: thin solid #000;
