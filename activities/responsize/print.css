@@ -1,0 +1,41 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+nav a{
+    display:none;
+}
+   
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(255, 250, 240);
+    background-color: white;
+   /* border:thin solid #000;*/
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    border:thin solid #000;
+    box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
+    width: 200px;
+    margin: 0;
+}
+.card img {
+    width:100%;
+}
+.card figure{
+    margin: 0;
+}
+header{
+    background-color: blueviolet;
+}
+header h1{
+    margin: 0;
+}
