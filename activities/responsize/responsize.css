@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 nav{
     display: flex;
@@ -43,3 +44,27 @@ header{
 header h1{
     margin: 0;
 }
+@media ONLY screen AND (max-width: 620px){
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .feature{
+        order: -1;
+    }
+
+}
+@media ONLY screen AND (max-width: 458px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-radius: 0;
+        border-bottom: thin solid #000;
+    }
+}
+    
