@@ -41,9 +41,10 @@ nav a:hover {
     border: thin solid #000;
     border-radius: 10px;
     background-color: #FAF0E6;
+    width: 100%;
 }
 .sidebar {
-    width: 25%;
+    width: 30%;
     background-color: #FFF8DC; 
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
