@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Times New Roman', serif;
+    color: black;
+    background: none;
+    margin: 0;
+}
+
+
+nav, footer {
+    display: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(255, 250, 240);
+    background-color: white;
+}
+   
+
+.container {
+    display: block;
+}
+
+
+.sidebar {
+    width: 100%;
+    padding: 10px;
+    border: thin solid black;
+    background: none;
+}
+
+.sidebar img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar figure {
+    text-align: center;
+    margin: 0;
+}
+
+
+.row {
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: none;
+    padding: 5px;
+}
+
+.card img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card figure {
+    text-align: center;
+    margin: 0;
+}

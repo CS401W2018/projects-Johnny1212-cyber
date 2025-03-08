@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1c0;
+}
+header {
+    background-color: #8B0000; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+header h1{
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5A3E1B; 
+    padding: 10px;
+    border: thin solid #A0522D;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #C75F2F; 
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #D2691E; 
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: thin solid #000;
+    border-radius: 10px;
+    background-color: #FAF0E6;
+}
+.sidebar {
+    width: 25%;
+    background-color: #FFF8DC; 
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    border: thin solid #8B0000;
+    border-radius: 10px;
+}
+
+.sidebar figure {
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: thin solid #000;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FFE4B5; 
+    padding: 15px;
+    border-radius: 5px;
+    border: thin solid #8B0000;
+    box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
+    width: 200px;
+    margin: 10%;
+    text-align: center;
+    
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card figure {
+    text-align: center;
+    margin: 0;
+}
+footer {
+    background-color: #5A3E1B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar, main {
+        width: 100%;
+    }
+
+    .articles {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .feature{
+        order: -1;
+    }
+}
+@media ONLY screen AND (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-radius: 0;
+        border-bottom: thin solid #000;
+    }
+}
