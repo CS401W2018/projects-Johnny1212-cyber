@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Web Design
+        </h1>
+    </header>
+    <main>
+        <h1>
+            Tables
+        </h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Winter 2025</th>
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td rowspan="2">140</td>
+                    <td>11:00-11:50 am</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td>12:00-12:50 am</td>
+                    <td>P3</td>
+                    <td>3</td>
+                    
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td>210</td>
+                    <td>2:00-2:50 am</td>
+                    <td>P2</td>
+                    <td>3</td>
+                    
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td>320</td>
+                    <td>3:00-3:50 am</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th id="sprin2025" colspan="5">Spring 2025</th>
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td >210</td>
+                    <td>2:00-2:50 am</td>
+                    <td>P2</td>
+                    <td >3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="totalcredits" colspan="4">Total credits</th>
+                    <td headers="totalcredits sprin2025">15</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>When to Use a Table?</h2>
+    <p>Use a table when you need to structure data, such as in a spreadsheet or a schedule.</p>
+    
+    <h2>When Not to Use a Table?</h2>
+    <p>Avoid using tables for page layout as they can be hard to display properly on phones.</p>
+    
+    <h2>Table Accessibility</h2>
+    <p>For accessibility, use <code>&lt;th&gt;</code> for column names, <code>&lt;thead&gt;</code> for labels, <code>&lt;tbody&gt;</code> for data, and <code>&lt;tfoot&gt;</code> for summaries.</p>
+    </main>
+    <footer>
+       <p> &copy;Kaung Si Thu 2025</p>
+    </footer>
+</body>
+</html>

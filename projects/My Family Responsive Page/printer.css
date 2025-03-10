@@ -10,6 +10,7 @@ body {
 nav, footer {
     display: none;
 }
+
 nav a:hover {
     text-decoration: underline;
     color: rgb(255, 250, 240);
