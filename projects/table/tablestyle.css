@@ -1,0 +1,88 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: #6A0DAD; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+header h1{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4B3F29; 
+    padding: 10px;
+    border: thin solid #7C4A3B;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #9C4A1F; 
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #C85A33; 
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: thin solid #333;
+    border-radius: 10px;
+    background-color: #F8E0D2;
+    width: 100%;
+}
+.sidebar {
+    width: auto;
+    background-color: #F5D0A9; 
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    border: thin solid #D2691E;
+    border-radius: 10px;
+}
+.schedule {
+    border: thin solid #333;
+    width: 100%;
+    background-color: #FFF0C8;
+    box-shadow: 3px 3px 3px #333;
+    caption-side: bottom;
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: bottom;
+}
+.schedule th,.schedule td {
+    border: thin solid #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+.schedule thead th {
+    background-color: #00CED1;
+    color: #0c0c0c;
+}
+.schedule tfoot th {
+    background-color: #E6A8D7;
+    color: #fff;
+}
+
+.schedule tbody tr{
+    background-color: #FBB6C2;
+}
+.schedule tbody tr:nth-child(odd){
+    background-color: #D8A0A1;
+}
+.th {
+    background-color: #a16c45;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
