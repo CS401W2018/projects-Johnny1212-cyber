@@ -4,65 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-    <link rel="stylesheet" href="form.css".css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <head>
+    <header>
         <h1>
             Web design
         </h1>
-    </head>
+    </header>
     <main>
         <form action="procession.html" method="get">
-            <div class="form-row">
-                <label for="fname">Full name</label>
-                <input type="text" name="fullname"
-                id="fname" value="John">
-            </div>
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="your@email.com">
-            </div>
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-            </div>
-            <div class="form-row">
-                <label for="state">State</label>
-                <select name="state" id="state">
-                    <option value="Blank"></option>
-                    <option value="CO">Colorado</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="TH">Thailand</option>
-                    <option value="UT">Utah</option>
-                    <option value="MY" selected>Myanmar</option>
-                </select>
-            </div>
-            <div class="form-row">
-                <input type="submit">
-            </div>
-            <div>
-                <div>Year in School:</div>
-                <label><input type="radio" name="year"  value="Freshman" >Fresh Man</label>
-                <label><input type="radio" name="year"  value="Sophmore" >Sophmore</label>
-                <label><input type="radio" name="year"  value="Junior" >Junior</label>
-                <label><input type="radio" name="year"  value="Senior" >Senior</label>
-            </div>
-        </form>
-        <p><strong>The form tag has an "action" attribute. What does it do?</strong></p>
-        <p>It specifies the URL where the form data will be sent after submission.</p>
-
-        <p><strong>The form tag has a "method" attribute. What does it do?</strong></p>
-        <p>It defines how the form data is sent (GET or POST).</p>
-
-        <p><strong>What is the difference between a "POST" and a "GET"?</strong></p>
-        <p><strong>GET</strong>: Sends data in the URL (visible, limited, cached).</p>
-        <p><strong>POST</strong>: Sends data in the request body (hidden, larger, not cached).</p>
-
+            <fieldset>
+                <legend>Creat Account</legend>
+                <div class="form-row">
+                    <label for="fname">Full name</label>
+                    <input type="text" name="fullname"
+                    id="fname" value="John">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="Blank">none</option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="TH">Thailand</option>
+                        <option value="UT">Utah</option>
+                        <option value="MY" selected>Myanmar</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School:</div>
+                    <label><input type="radio" name="year"  value="Freshman" >Fresh Man</label>
+                    <label><input type="radio" name="year"  value="Sophmore" >Sophmore</label>
+                    <label><input type="radio" name="year"  value="Junior" >Junior</label>
+                    <label><input type="radio" name="year"  value="Senior" >Senior</label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comment</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+            
+            <p><strong>What are different ways to style your form?</strong></p>
+            <p>You can style a form using CSS with different methods like:</p>
+            <ul>
+                <li>CSS classes and IDs</li>
+                <li>Inline styles</li>
+                <li>Flex and Grid for layout</li>
+                <li>Bootstrap or other frameworks</li>
+            </ul>
+            
+            <p><strong>Why does the professor like to use flex?</strong></p>
+            <p>Flexbox is used because it makes form layout easier by aligning elements easier, allowing responsiveness and proper spacing for mobile.</p>
+        </form>   
     </main>
     <footer>
         <p>&copy;Kaung Si Thu 2025</p>
     </footer>
-    
-</body>
-</html>
+</body>   

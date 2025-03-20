@@ -1,0 +1,57 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-row {
+ display: flex;
+ gap: 10px;
+ margin: 10px 0;
+}
+.form-row input:not([type="sumbit"]) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    padding: 5px 10px;
+}
+.form-row input:not([type="sumbit"]):focus {
+    background-color:#3e902d;
+}
+.form-row input[type="sumbit"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(108, 104, 129);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+fieldset {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+legend {
+    background-color: rgb(200, 139, 58);
+    color: aqua;
+    padding: 10px 20px;
+}
+.form-row label {
+    width: 150px;
+    text-align: right;
+    /*padding: 0 10px;*/
+    margin: 0 10px;
+}
+.form-spacer {
+    width: 170px;
+    text-align: right;
+}
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+@media ONLY screen AND (max-width: 600px){
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-spacer, .form-row label {
+        text-align: left;
+    }
+}
