@@ -47,7 +47,7 @@ nav a:hover {
 .sidebar {
     width: 30%;
     background-color: #FFF8DC; 
-    padding: 15px;
+    padding: 40px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     display: grid;
     border: thin solid #8B0000;
@@ -130,6 +130,7 @@ footer {
         margin-bottom: 15px;
     }
     .row {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -140,6 +141,7 @@ footer {
     .feature{
         order: -1;
     }
+
 }
 @media ONLY screen AND (max-width: 500px){
     nav{
