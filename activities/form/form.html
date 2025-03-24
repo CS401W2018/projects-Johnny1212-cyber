@@ -13,13 +13,13 @@
         </h1>
     </header>
     <main>
-        <form action="procession.html" method="get">
+        <form action="procession.html" method="get" id="myForm">
             <fieldset>
                 <legend>Creat Account</legend>
                 <div class="form-row">
-                    <label for="fname">Full name</label>
+                    <label for="fullname">Full name</label>
                     <input type="text" name="fullname"
-                    id="fname" value="John">
+                    id="fullname" value="John">
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
@@ -52,6 +52,11 @@
                     <label><input type="checkbox" name="remember" id="remember">Remember me</label>
                 </div>
                 <div class="form-row">
+                    <!-- <div class="form-spacer"></div> -->
+                    <label for="age">Age</label>
+                    <input type="age" name="age" id="age" required>
+                </div>
+                <div class="form-row">
                     <label for="comments">Comment</label>
                     <textarea name="comments" id="comments"></textarea>
                 </div>
@@ -61,20 +66,56 @@
                 </div>
             </fieldset>
             
-            <p><strong>What are different ways to style your form?</strong></p>
-            <p>You can style a form using CSS with different methods like:</p>
-            <ul>
-                <li>CSS classes and IDs</li>
-                <li>Inline styles</li>
-                <li>Flex and Grid for layout</li>
-                <li>Bootstrap or other frameworks</li>
-            </ul>
-            
-            <p><strong>Why does the professor like to use flex?</strong></p>
-            <p>Flexbox is used because it makes form layout easier by aligning elements easier, allowing responsiveness and proper spacing for mobile.</p>
+            <h1>What is JavaScript?</h1>
+    <p>JavaScript is the most well-known programming language today.</p>
+
+    <h2>How did JavaScript get its name?</h2>
+    <p>In the late 1990s, two companies, Microsoft and Sun Microsystems, were competing. They created the Java programming language to improve web browsers. Since Sun Microsystems owned Java, they named it JavaScript.</p>
+
+    <h2>What are the two ways you can run JavaScript?</h2>
+    <ul>
+        <li>The first way is running JavaScript in the DOM (Document Object Model).</li>
+        <li>The second way is using Node.js (Express.js).</li>
+    </ul>
+
+    <h2>What was the most popular front-end JavaScript library?</h2>
+    <p>jQuery</p>
+
+    <h2>What is the most popular front-end JavaScript library today?</h2>
+    <p>React.js</p>
+    <p>React Native</p>
+
+    <h3>Need to get an internship</h3>
         </form>   
     </main>
     <footer>
         <p>&copy;Kaung Si Thu 2025</p>
     </footer>
-</body>   
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            // alert("Form Submitted");
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('pass').value;
+            const age = document.getElementById('age').value;
+            if (!fullname || !email){
+                alert("Youn need a name and email.")
+                return;
+            }
+            if (!age || !age<18){
+                alert("Youn need to be older than 18")
+                return;
+            }
+            const formData ={
+                name: fullname,
+                email: email,
+                password: password,
+                age: age
+            };
+
+            console.log(formData);
+        });
+    </script>
+</body> 
+</html>  
