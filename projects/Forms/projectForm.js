@@ -3,31 +3,32 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     alert("Form Submitted");
 
-    const fullname = document.getElementById('fullname').value.trim();
+    const fullname = document.getElementById('fname').value.trim();
     const email = document.getElementById('email').value.trim();
     const password = document.getElementById('password').value; 
-    const age = parseInt(document.getElementById('age').value, 10);
+    const dob = document.getElementById('dob').value;
 
+    
     if (!fullname || !email) {
         alert("You need to provide a name and email.");
         return;
     }
 
-    if (!age || age < 18) {
-        alert("You need to be at least 18 years old.");
+    if (!dob) {
+        alert("Please enter your date of birth.");
         return;
     }
 
+    
     const formData = {
         name: fullname,
         email: email,
         password: password,
-        age: age
+        dob: dob
     };
 
-    
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "submit.json", true);
+    xhr.open("Get", "projectSubmit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
 
     xhr.onreadystatechange = function () {
@@ -41,6 +42,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         }
     };
 
+   
     xhr.send(JSON.stringify(formData));
 
     console.log("Form Data:", formData);

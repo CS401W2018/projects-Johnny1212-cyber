@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Form</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header>
-        <h1>
-            Web design
-        </h1>
+        <h1>Web Design</h1>
     </header>
     <main>
-        <form action="procession.html" method="get" id="myForm">
+        <div id="message"></div>
+        <form action="procession.html" method="post" id="myForm">
             <fieldset>
-                <legend>Creat Account</legend>
+                <legend>Create Account</legend>
                 <div class="form-row">
-                    <label for="fullname">Full name</label>
-                    <input type="text" name="fullname"
-                    id="fullname" value="John">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname" value="John">
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
@@ -32,7 +30,7 @@
                 <div class="form-row">
                     <label for="state">State</label>
                     <select name="state" id="state">
-                        <option value="Blank">none</option>
+                        <option value="">None</option>
                         <option value="CO">Colorado</option>
                         <option value="HI">Hawaii</option>
                         <option value="TH">Thailand</option>
@@ -42,17 +40,16 @@
                 </div>
                 <div class="radio-row">
                     <div class="form-spacer">Year in School:</div>
-                    <label><input type="radio" name="year"  value="Freshman" >Fresh Man</label>
-                    <label><input type="radio" name="year"  value="Sophmore" >Sophmore</label>
-                    <label><input type="radio" name="year"  value="Junior" >Junior</label>
-                    <label><input type="radio" name="year"  value="Senior" >Senior</label>
+                    <label><input type="radio" name="year" value="Freshman"> Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore"> Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior"> Junior</label>
+                    <label><input type="radio" name="year" value="Senior"> Senior</label>
                 </div>
                 <div class="radio-row">
                     <div class="form-spacer"></div>
-                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                    <label><input type="checkbox" name="remember" id="remember"> Remember me</label>
                 </div>
                 <div class="form-row">
-                    <!-- <div class="form-spacer"></div> -->
                     <label for="age">Age</label>
                     <input type="number" name="age" id="age" required>
                 </div>
@@ -62,21 +59,21 @@
                 </div>
                 <div class="form-row">
                     <div class="form-spacer"></div>
-                    <input type="submit">
+                    <input type="submit" value="Submit">
                 </div>
             </fieldset>
-            
-            <h2>What is AJAX?</h2>
-            <p><strong>AJAX (Asynchronous JavaScript and XML)</strong> is a web development technique used to create fast and dynamic web applications. It allows web pages to update content without refreshing the entire page by making asynchronous requests to a server.</p>
-        
-            <h2>Why do you put your JS Code in a separate file?</h2>
-            <p>Placing JavaScript in a separate file makes the code easier to maintain as it keeps HTML clean and organized. It also improves performance because browsers can cache the external script, reducing load times. Using separate files allows for code reusability across multiple webpages. Additionally, it enhances security.</p>
-        </form>   
+        </form>  
+
+        <h2>What is AJAX?</h2>
+        <p><strong>AJAX (Asynchronous JavaScript and XML)</strong> is a web development technique used to create fast and dynamic web applications. It allows web pages to update content without refreshing the entire page by making asynchronous requests to a server.</p>
+
+        <h2>Why do you put your JS code in a separate file?</h2>
+        <p>Placing JavaScript in a separate file makes the code easier to maintain as it keeps HTML clean and organized. It also improves performance because browsers can cache the external script, reducing load times. Using separate files allows for code reusability across multiple webpages. Additionally, it enhances security.</p>
     </main>
     <footer>
-        <p>&copy;Kaung Si Thu 2025</p>
+        <p>&copy; Kaung Si Thu 2025</p>
     </footer>
-    <script> src="form.js"</script>
     
+    <script src="form.js"></script>
 </body> 
-</html>  
+</html>
