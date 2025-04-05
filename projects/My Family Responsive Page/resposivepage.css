@@ -92,6 +92,10 @@ nav a:hover {
     
     
 }
+.john { 
+    width: 200%;
+
+}
 
 .card img {
     width: 100%;
@@ -102,6 +106,28 @@ nav a:hover {
     text-align: center;
     margin: 0;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #fdfdfd;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #af8b4c;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
 footer {
     background-color: #5A3E1B;
     color: white;
