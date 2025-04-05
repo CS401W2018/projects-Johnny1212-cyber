@@ -111,6 +111,7 @@ table {
     border-collapse: collapse;
     margin-top: 15px;
     background-color: #fdfdfd;
+    caption-side: bottom;
 }
 
 table th, table td {
