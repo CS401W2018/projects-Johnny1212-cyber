@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Form</title>
+    <link rel="stylesheet" href="resposivepage.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design Form Project</h1>
+    </header>
+    <main>
+        <div id="message"></div>
+        <form action="procession.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Create Account</legend>
+                <div class="form-row">
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fullname" id="fname" placeholder="Enter your full name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Don't mess with me">
+                </div>
+                <div class="form-row">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="form-row">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="none">Select your country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="AU">Australia</option>
+                        <option value="MN">Myanmar</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School:</div>
+                    <label><input type="radio" name="year" value="Freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior">Junior</label>
+                    <label><input type="radio" name="year" value="Senior">Senior</label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="remember" id="remember"> Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" placeholder="Enter your comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kaung Si Thu.</p>
+    </footer>
+    <script src="projectForm.js"></script>
+</body>
+</html>
