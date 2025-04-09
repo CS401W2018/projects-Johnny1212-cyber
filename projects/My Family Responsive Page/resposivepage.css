@@ -34,6 +34,12 @@ nav a:hover {
     background-color: #D2691E; 
     text-decoration: underline;
 }
+.highlight {
+    background-color: rgb(115, 169, 134);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .container {
     display: flex;
@@ -214,6 +220,10 @@ legend {
     cursor: pointer;
     font-size: 16px;
 }
+iframe {
+    border: 0;
+    margin-left: 30%;
+   }
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -260,6 +270,7 @@ legend {
         width: 100%;
         padding: 15px;
     }
+    
 }
 
 @media ONLY screen AND (max-width: 500px){
@@ -283,6 +294,13 @@ legend {
     .form-row input[type="submit"] {
         width: 100%;
         padding: 15px;
+    }
+    iframe {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 ratio */
+        height: 0;
+        overflow: hidden;
     }
 }
 

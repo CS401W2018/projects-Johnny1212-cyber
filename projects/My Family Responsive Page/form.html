@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Form</title>
+    <title>Form</title>
     <link rel="stylesheet" href="resposivepage.css">
 </head>
 <body>
     <header>
-        <h1>Web Design Form Project</h1>
+        <h1>BECOME A MEMBER OF MY WEBSITE</h1>
     </header>
     <main>
+        <nav>
+            <a href="familyResponsive.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="geothermal.html">Geothermal</a>
+            <a href="wildlife.html" >Wildlife</a>
+            <a href="things-to-do.html">Things to Do</a>
+            <a href="survey.html">Visitor Stats</a>
+            <a href="form.html" class="highlight">Become A Member</a>
+          </nav>
         <div id="message"></div>
         <form action="procession.html" method="post" id="myForm">
             <fieldset>
                 <legend>Create Account</legend>
                 <div class="form-row">
-                    <label for="fname">Full Name</label>
+                    <label for="fname">Account Id</label>
                     <input type="text" name="fullname" id="fname" placeholder="Enter your full name">
                 </div>
                 <div class="form-row">
@@ -25,6 +34,10 @@
                 </div>
                 <div class="form-row">
                     <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Don't mess with me">
+                </div>
+                <div class="form-row">
+                    <label for="password">Confirm Password</label>
                     <input type="password" name="password" id="password" required placeholder="Don't mess with me">
                 </div>
                 <div class="form-row">
@@ -43,15 +56,13 @@
                     </select>
                 </div>
                 <div class="radio-row">
-                    <div class="form-spacer">Year in School:</div>
-                    <label><input type="radio" name="year" value="Freshman">Freshman</label>
-                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
-                    <label><input type="radio" name="year" value="Junior">Junior</label>
-                    <label><input type="radio" name="year" value="Senior">Senior</label>
+                    <div class="form-spacer">Gender:</div>
+                    <label><input type="radio" name="Gender" value="Male">Male</label>
+                    <label><input type="radio" name="Gender" value="Female">Female</label>
                 </div>
                 <div class="radio-row">
                     <div class="form-spacer"></div>
-                    <label><input type="checkbox" name="remember" id="remember"> Remember me</label>
+                    <label><input type="checkbox" name="remember" id="remember"> Agreed terms and policies</label>
                 </div>
                 <div class="form-row">
                     <label for="comments">Comments</label>
